@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="main">
         <div>
             <h1>OFFIZIELLE</h1>
             <h1>GESCHÄFTSPRÄSENTATION</h1>
@@ -19,18 +20,21 @@
                 Daher verwenden wir dieses einfache Kontaktformular.
             </p>
         </div>
-        <div>
-            <label for="vorname">Vorname</label>
-            <input type="text" name="vorname">
+        <div id="form">
+            <div class="input">
+                <label for="vorname">Vorname</label>
+                <input type="text" name="vorname">
+    
+                <label for="email">E-Mail</label>
+                <input type="email" name="email">
+            </div>
+            <div class="input">
+                <label for="nachname">Nachname</label>
+                <input type="text" name="nachname">
 
-            <label for="nachname">Nachname</label>
-            <input type="text" name="nachname">
-
-            <label for="email">E-Mail</label>
-            <input type="email" name="email">
-
-            <label for="empfohlen">Empfohlen durch</label>
-            <input type="text" name="empfohlen">
+                <label for="empfohlen">Empfohlen durch</label>
+                <input type="text" name="empfohlen">
+            </div>
         </div>
         <div>
             <button>Das Infomaterial bitte</button>
@@ -44,9 +48,9 @@
                 Durch das Ausfüllen und Absenden dieses Formulars stimmen Sie unseren Datenschutzrichtlinien zu. 
                 Vielen Dank für Ihr Vertrauen und Ihre Teilnahme!
             </p>
-            <p>© 2024. alle Rechte vorbehalten</p>
             <p>Impressum</p>
             <p>Datenschutzerklärung</p>
+            <p>© 2024. alle Rechte vorbehalten</p>
         </div>
     </div>
 </body>

@@ -1,0 +1,42 @@
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+
+#form
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+
+.input
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
