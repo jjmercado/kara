@@ -1,3 +1,17 @@
+/* *
+{
+    border: 1px solid red;
+} */
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
 h1
 {
     text-align: center;
@@ -8,13 +22,6 @@ p
     text-align: center;
 }
 
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #main
 {
     display: flex;
@@ -22,6 +29,7 @@ body
     flex-direction: column;
     width: 60%;
     height: auto;
+    gap: 1rem;
 }
 
 #form
@@ -29,7 +37,8 @@ body
     display: flex;
     width: 100%;
     height: auto;
-    gap: 10px;
+    gap: 1rem;
+    text-align: center;
 }
 
 .input
@@ -39,4 +48,21 @@ body
     width: 100%;
     height: auto;
     justify-content: center;
+    gap: 1rem;
+}
+
+#links
+{
+    display: flex;
+    gap: 1rem;
+}
+
+#footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
