@@ -19,29 +19,31 @@
                 Daher verwenden wir dieses einfache Kontaktformular.
             </p>
         </div>
-        <form id="form">
-            <div class="input">
-                <label for="vorname">Vorname</label>
-                <input type="text" name="vorname">
+        <form id="form" action="../backend/insertUserData.php" method="post">
+            <div id="inputs">
+                <div class="input">
+                    <label for="vorname">Vorname</label>
+                    <input type="text" name="vorname">
+        
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="input">
+                    <label for="nachname">Nachname</label>
+                    <input type="text" name="nachname">
     
-                <label for="email">E-Mail</label>
-                <input type="email" name="email">
+                    <label for="empfohlen">Empfohlen durch</label>
+                    <input type="text" name="empfohlen">
+                </div>
             </div>
-            <div class="input">
-                <label for="nachname">Nachname</label>
-                <input type="text" name="nachname">
-
-                <label for="empfohlen">Empfohlen durch</label>
-                <input type="text" name="empfohlen">
+            <div>
+                <button type="submit">Abschicken</button>
             </div>
         </form>
-        <div>
-            <button>Das Infomaterial bitte</button>
-        </div>
         <div id="footer">
             <div id="links">
                 <a href="">Impressum</a> 
-                <a href="">Datenschutzerklärung</a>
+                <a href="">Datenschutz</a>
             </div>
             <div>
                 <p>© 2024. alle Rechte vorbehalten</p>

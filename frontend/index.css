@@ -35,10 +35,17 @@ p
 #form
 {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     gap: 1rem;
     text-align: center;
+}
+
+#inputs
+{
+    display: flex;
+    gap: 1rem;
 }
 
 .input
